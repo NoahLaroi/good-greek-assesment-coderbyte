@@ -1,0 +1,53 @@
+$basicblue: rgb(23, 58, 65);
+// $lighter-blue: rgb(59, 160, 180);
+$basicred: rgb(255, 56, 56);
+$basic-yellow: rgb(248, 235, 149);
+$basic-dark-red: rgb(146, 33, 33);
+$off-white: rgb(228, 227, 227);
+
+h1 {
+    color: $basicred;
+}
+.leadBlock {
+    background-color: white;
+    display: flex;
+    border-bottom: 1px solid $basicblue;
+    align-items: center;
+    .dataContainer {
+        width: 16.7%; 
+        border-right: 1px solid $basicblue; 
+        text-align: left;
+        display: flex;
+        flex-flow: row wrap;
+        p { padding-left: 8px;
+            font-size: 1rem;
+        }
+    }
+}
+.leadBlock:hover {
+    background-color: $off-white;
+}
+.iconHolder {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.icon {
+    height: 30px;
+    width: 30px;
+    margin: 1.5rem;
+}
+.delete {
+    background-image: url('../../assets/trash-bin.png');
+    background-size: cover;
+    background-position: center;
+    border: white;
+    border-radius: 50%;
+}
+.update {
+    background-image: url('../../assets/edit.png');
+    background-size: cover;
+    background-position: center;
+    border: white;
+    border-radius: 50%;
+}
