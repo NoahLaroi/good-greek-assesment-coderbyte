@@ -15,10 +15,10 @@ h1 {
     align-items: center;
     .dataContainer {
         width: 16.7%; 
-        border-right: 1px solid $basicblue; 
+        // border-right: 1px solid $basicblue; 
         text-align: left;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
         p { padding-left: 8px;
             font-size: 1rem;
         }

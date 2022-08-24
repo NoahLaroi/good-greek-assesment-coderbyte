@@ -14,7 +14,6 @@ h1 {
 }
 .leadBlock .dataContainer {
   width: 16.7%;
-  border-right: 1px solid rgb(23, 58, 65);
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;

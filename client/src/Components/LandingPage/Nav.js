@@ -1,11 +1,11 @@
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 export default function Nav () {
     return (
         <nav>
         <h1>Leads.NET</h1>
         <ul>
-            <Link to='/'><li>Register</li></Link>
-            <Link to='/leads'><li>Leads</li></Link>
+            <NavLink to='/'><li>Register</li></NavLink>
+            <NavLink to='/leads'><li>Leads</li></NavLink>
         </ul> 
         </nav>
     )
